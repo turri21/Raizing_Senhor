@@ -2,7 +2,7 @@
 
 Tested: Working Video 720p, 1080p & Sound.
 
-Dev notes: To fix the random restarts disable the "set_instance_assignment -name SLEW_RATE 0 -to SDRAM...." lines.
+Dev notes: To fix the random restarts disable the "set_instance_assignment -name SLEW_RATE 0 -to SDRAM...." lines in the respective .qsf of each core.
 ___
 # Raizing FPGA Cores
 
