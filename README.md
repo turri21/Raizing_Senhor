@@ -1,3 +1,9 @@
+-=(Raizing_Senhor notes)=-
+
+Tested: Working Video 720p, 1080p & Sound.
+
+Dev notes: To fix the random restarts disable the "set_instance_assignment -name SLEW_RATE 0 -to SDRAM...." lines.
+___
 # Raizing FPGA Cores
 
 This project contains the FPGA cores for Raizing boards operating on the Toaplan v2 board platform.
